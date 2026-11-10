@@ -139,7 +139,7 @@ def verificar_colisao(vaga, estacionamento):
         vizinhos += 1
 
     # OPERADOR TERNÁRIO: É um 'if/else' escrito numa linha só.
-    chance = 0.15 if vizinhos == 1 else 0.35 if vizinhos == 2 else 0
+    chance = 0.15 if vizinhos == 1 else 0.50 if vizinhos == 2 else 0
 
     # random.random() gera um número decimal entre 0.0 e 1.0.
     # Se esse número for menor que a chance estipulada, a colisão ocorre.
